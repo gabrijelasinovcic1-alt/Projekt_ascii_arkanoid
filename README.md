@@ -1,1 +1,2 @@
-# Projekt_ascii_arkanoid
+Arkanoid console game
+
