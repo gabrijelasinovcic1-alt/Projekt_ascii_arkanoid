@@ -1,0 +1,4 @@
+﻿  arkanoid.cpp
+c:\users\acer\source\repos\ascii arkanoid\ascii arkanoid\arkanoid.cpp(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\acer\source\repos\ascii arkanoid\ascii arkanoid\arkanoid.cpp(142): warning C4018: '<': signed/unsigned mismatch
+  ASCII Arkanoid.vcxproj -> C:\Users\Acer\source\repos\ASCII Arkanoid\Debug\ASCII Arkanoid.exe
