@@ -114,7 +114,7 @@ public:
 };
 
 /*----------------- PADDLE -----------------*/
-const int DUZINA_PALICE = 9; // nova duzina palice
+const int DUZINA_PALICE = 9; 
 const int BRZINA_PALICE = 4;
 
 class Paddle : public GameObject {
@@ -359,3 +359,4 @@ private:
 			return 0;
 
 		}
+
