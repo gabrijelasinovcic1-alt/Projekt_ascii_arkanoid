@@ -191,7 +191,7 @@ public:
 		if (newX <= 0 || newX >= SIRINA - 1) dx = -dx;
 		if (newY <= 0) dy = -dy;
 
-		// sada pomakni loptu
+		
 		x += dx;
 		y += dy;
 	}
@@ -318,7 +318,7 @@ private:
 							lopta = Ball(SIRINA / 2, VISINA - 2);
 							lives--;
 							loptaStart = false;
-							// ne dira se 'blokovi' -> prethodno uništeni ostaju
+						
 						}
 					}
 
@@ -357,4 +357,5 @@ private:
 			Game igra;
 			igra.igraj();
 			return 0;
+
 		}
