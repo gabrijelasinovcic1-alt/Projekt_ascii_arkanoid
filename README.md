@@ -5,8 +5,8 @@ Arkanoid ASCII game
   
 - Igra radi u Windowsu i Linuxu, upotrebljeni odredeni #include-ovi za cross platformu.
   
-- Dodana implementacija u .h i .cpp files
+- Dodana implementacija u .h i .cpp files.
  
 - Napravljena palica s dužinom te loptica 'O', blokovi i dodan tekst "Lives: ", "Blocks Left: ", pojavljivanje novog zaslona "GAME OVER!"/"OU WIN!" te gumb "Play Again" i "Exit" prilikom pobjede ili gubitka.
 
-- Problem flickera ("treperenje" zaslona) je rješen (buffer se iscrtava odjednom a ne frame po frame)
+- Problem flickera ("treperenje" zaslona) je rješen (buffer se iscrtava odjednom a ne frame po frame).
