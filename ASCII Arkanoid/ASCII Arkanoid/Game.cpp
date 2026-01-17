@@ -171,7 +171,7 @@ GameState Game::loseScreen() {
 	sound();
 	slika.clear();
 	slika.putText(2, 4, "   GAME OVER!");
-	slika.putText(4, 6, " 1 [Start Over]");
+	slika.putText(4, 6, " 1 [Play Again]");
 	slika.putText(6, 6, " 3 [Exit]");
 
 	slika.draw();
@@ -198,3 +198,4 @@ void Game::resetGame() {
 		for (int i = 2; i < SIRINA; i += Block::WIDTH)
 			blokovi.push_back(Block(i, j));
 }
+
