@@ -1,7 +1,0 @@
-﻿  Game.cpp
-c:\users\acer\source\repos\ascii arkanoid\ascii arkanoid\game.cpp(31): warning C4018: '<': signed/unsigned mismatch
-c:\users\acer\source\repos\ascii arkanoid\ascii arkanoid\game.cpp(51): warning C4018: '<': signed/unsigned mismatch
-  main.cpp
-  Paddle.cpp
-  Generating Code...
-  ASCII Arkanoid.vcxproj -> C:\Users\Acer\source\repos\ASCII Arkanoid\Debug\ASCII Arkanoid.exe
