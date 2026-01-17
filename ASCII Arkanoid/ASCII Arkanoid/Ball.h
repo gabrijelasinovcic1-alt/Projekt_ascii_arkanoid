@@ -7,7 +7,7 @@
 
 class Ball{
 private:
-	int x, y, dx, dy;
+	float x, y, dx, dy;
 	bool aktivna;
 public:
 	Ball(int startX, int startY);

@@ -53,6 +53,14 @@ char getKey() {
 	return c;
 }
 #endif
+/*ZVUK*/
+void sound() {
+#ifdef _WIN32
+	Beep(900, 70);
+#else
+	std::cout << "\a";
+#endif
+}
 
 /* SPAVANJE */
 void spavanje(int san) {

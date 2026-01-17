@@ -1,5 +1,5 @@
 #include "Paddle.h"
-
+#include "konstanta.h"
 Paddle::Paddle(int StartX, int StartY, int d)
 	: x(StartX), y(StartY), duzina(d) {}
 

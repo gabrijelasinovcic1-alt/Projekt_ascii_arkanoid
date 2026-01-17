@@ -3,8 +3,8 @@
 
 #include "GameObject.h"
 #include "konstanta.h"
-const int DUZINA_PALICE = 9;
-const int BRZINA_PALICE = 4;
+const int DUZINA_PALICE = 13;
+const int BRZINA_PALICE = 5;
 
 
 class Paddle : public GameObject {

@@ -2,7 +2,7 @@
 #define GAMEOBJECT_H
 
 #include <vector>
-
+#include "konstanta.h"
 class GameObject {
 public:
 	virtual void update() {}

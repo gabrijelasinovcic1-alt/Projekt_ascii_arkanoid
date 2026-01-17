@@ -8,7 +8,7 @@
 #include "konstanta.h"
 #include <vector>
 
-enum class GameState { Lobby, Rules, Exit, Play };
+enum class GameState {Lobby, Rules, Exit, Play, Win, Lose};
 
 class Game {
 private:
@@ -22,6 +22,8 @@ private:
 	GameState lobbyScreen();
 	GameState rulesScreen();
 	GameState playScreen();
+	GameState winScreen();
+	GameState loseScreen();
 	void resetGame();
 
 public:
